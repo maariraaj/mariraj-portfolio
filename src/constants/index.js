@@ -198,67 +198,67 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "Pigeon Mail",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "Pigeon Mail is an application where users can send and receive mail. Each user has their account. Integrated react-draft-wysiwyg editor for composing new emails. Users can use Inbox, Sent Mail to see received and sent mails respectively. ",
     tags: [
       {
-        name: "react",
+        name: "mailbox_client",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "react",
         color: "green-text-gradient",
       },
       {
-        name: "tailwind",
+        name: "bootstrap",
         color: "pink-text-gradient",
       },
     ],
     image: carrent,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/maariraaj/mailbox",
   },
   {
-    name: "Job IT",
+    name: "Piggy Banker",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "Piggy Banker allows user to track their expenses and premium users (those who spend more than 10000 rupees) can get extra benefits like the provision to download their expenses in an excel format(.csv) and change theme feature. Users' expense data is protected using authentication method.",
     tags: [
       {
-        name: "react",
+        name: "(expense_tracker",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
+        name: "react",
         color: "green-text-gradient",
       },
       {
-        name: "scss",
+        name: "bootstrap",
         color: "pink-text-gradient",
       },
     ],
     image: jobit,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/maariraaj/expenseTracker",
   },
   {
-    name: "Trip Guide",
+    name: "The Artistic Aura",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "The Artistic Aura is an application that gives users the option to see different products and add them to the cart, manipulating cart data. User needs to log in to access their cart and users can see the product details as well.",
     tags: [
       {
-        name: "nextjs",
+        name: "ecommerce",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "react",
         color: "green-text-gradient",
       },
       {
-        name: "css",
+        name: "bootstrap",
         color: "pink-text-gradient",
       },
     ],
     image: tripguide,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/maariraaj/ecomWeb",
   },
 ];
 
