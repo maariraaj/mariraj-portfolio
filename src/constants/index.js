@@ -20,6 +20,10 @@ import {
   tesla,
   shopify,
   threejs,
+  artistic_aurora,
+  pigeon_mail,
+  piggy_bank,
+  shadow_chat,
 } from "../assets";
 
 export const navLinks = [
@@ -215,7 +219,7 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: "src/assets/projects/shadow_chat.png",
+    image: shadow_chat,
     web_link: "https://groupchatfs.onrender.com/",
     source_code_link: "https://github.com/maariraaj/groupChatFS",
   },
@@ -237,7 +241,7 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: "src/assets/projects/piggy_bank.png",
+    image: piggy_bank,
     web_link: "http://65.1.227.153/",
     source_code_link: "https://github.com/maariraaj/expenseTracker",
   },
@@ -259,7 +263,7 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: "src/assets/projects/artistic_aurora.png",
+    image: artistic_aurora,
     web_link: "https://the-artistic-aura.vercel.app/",
     source_code_link: "https://github.com/maariraaj/ecomWeb",
   },
@@ -281,7 +285,7 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: "src/assets/projects/pigeon_mail.png",
+    image: pigeon_mail,
     web_link: "https://pigeonmail.vercel.app/",
     source_code_link: "https://github.com/maariraaj/mailbox",
   }

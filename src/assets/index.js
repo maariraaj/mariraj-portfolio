@@ -4,6 +4,7 @@ import creator from "./creator.png";
 import mobile from "./mobile.png";
 import web from "./web.png";
 import github from "./github.png";
+import link_icon from "./link_icon.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
 
@@ -26,9 +27,10 @@ import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
 
-import carrent from "./carrent.png";
-import jobit from "./jobit.png";
-import tripguide from "./tripguide.png";
+import artistic_aurora from "./projects/artistic_aurora.png";
+import pigeon_mail from "./projects/pigeon_mail.png";
+import piggy_bank from "./projects/piggy_bank.png";
+import shadow_chat from "./projects/shadow_chat.png";
 
 export {
   logo,
@@ -37,6 +39,7 @@ export {
   mobile,
   web,
   github,
+  link_icon,
   menu,
   close,
   css,
@@ -56,7 +59,8 @@ export {
   shopify,
   starbucks,
   tesla,
-  carrent,
-  jobit,
-  tripguide,
+  artistic_aurora,
+  pigeon_mail,
+  piggy_bank,
+  shadow_chat,
 };
