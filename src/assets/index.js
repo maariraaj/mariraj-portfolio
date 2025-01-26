@@ -4,6 +4,8 @@ import creator from "./creator.png";
 import mobile from "./mobile.png";
 import web from "./web.png";
 import github from "./github.png";
+import linkedin from "./linkedin.jpg";
+import leetcode from "./leetcode.png";
 import link_icon from "./link_icon.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
@@ -39,6 +41,8 @@ export {
   mobile,
   web,
   github,
+  linkedin,
+  leetcode,
   link_icon,
   menu,
   close,

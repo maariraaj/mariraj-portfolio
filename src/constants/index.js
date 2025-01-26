@@ -24,6 +24,9 @@ import {
   pigeon_mail,
   piggy_bank,
   shadow_chat,
+  github,
+  linkedin,
+  leetcode
 } from "../assets";
 
 export const navLinks = [
@@ -178,7 +181,7 @@ const testimonials = [
     name: "maariraaj",
     social: "Leetcode",
     link: "https://leetcode.com/u/maariraaj/",
-    image: "src/assets/leetcode.png",
+    image: leetcode,
   },
   {
     id: 2,
@@ -187,7 +190,7 @@ const testimonials = [
     name: "marirajb",
     social: "LinkedIn",
     link: "https://www.linkedin.com/in/marirajb/",
-    image: "src/assets/linkedin.jpg",
+    image: linkedin,
   },
   {
     id: 3,
@@ -196,7 +199,7 @@ const testimonials = [
     name: "maariraaj",
     social: "GitHub",
     link: "https://github.com/maariraaj",
-    image: "src/assets/github.png",
+    image: github,
   },
 ];
 
