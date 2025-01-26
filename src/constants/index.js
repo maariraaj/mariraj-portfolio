@@ -19,9 +19,6 @@ import {
   starbucks,
   tesla,
   shopify,
-  carrent,
-  jobit,
-  tripguide,
   threejs,
 } from "../assets";
 
@@ -171,60 +168,64 @@ const experiences = [
 
 const testimonials = [
   {
+    id: 1,
     testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-    name: "Sara Lee",
-    designation: "CFO",
-    company: "Acme Co",
-    image: "https://randomuser.me/api/portraits/women/4.jpg",
+      "Leverage LeetCode effectively by rigorously tackling problems daily, mastering algorithms and data structures, and analyzing solutions to cultivate optimal problem-solving acumen.",
+    name: "maariraaj",
+    social: "Leetcode",
+    link: "https://leetcode.com/u/maariraaj/",
+    image: "src/assets/leetcode.png",
   },
   {
+    id: 2,
     testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Rick does.",
-    name: "Chris Brown",
-    designation: "COO",
-    company: "DEF Corp",
-    image: "https://randomuser.me/api/portraits/men/5.jpg",
+      "Utilized LinkedIn to build a strong network, engage with insightful content, demonstrate expertise, and strategically showcase accomplishments to drive professional growth.",
+    name: "marirajb",
+    social: "LinkedIn",
+    link: "https://www.linkedin.com/in/marirajb/",
+    image: "src/assets/linkedin.jpg",
   },
   {
+    id: 3,
     testimonial:
-      "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-    name: "Lisa Wang",
-    designation: "CTO",
-    company: "456 Enterprises",
-    image: "https://randomuser.me/api/portraits/women/6.jpg",
+      "Harnessed GitHub to display code contributions, collaborate on diverse projects, showcase development expertise, and curate a professional repository of technical work.",
+    name: "maariraaj",
+    social: "GitHub",
+    link: "https://github.com/maariraaj",
+    image: "src/assets/github.png",
   },
 ];
 
 const projects = [
   {
-    name: "Pigeon Mail",
+    name: "Shadow Chat",
     description:
-      "Pigeon Mail is an application where users can send and receive mail. Each user has their account. Integrated react-draft-wysiwyg editor for composing new emails. Users can use Inbox, Sent Mail to see received and sent mails respectively. ",
+      "Shadow Chat is a dynamic full-stack application designed for secure group communication. Users can authenticate, create and manage groups, with exclusive rights for creators to modify group details and control membership. The platform supports rich text and multimedia messaging, fostering seamless interaction within the group.",
     tags: [
       {
-        name: "mailbox_client",
+        name: "group_chat_app",
         color: "blue-text-gradient",
       },
       {
-        name: "react",
+        name: "html_tailwindCSS",
         color: "green-text-gradient",
       },
       {
-        name: "bootstrap",
+        name: "expressJS",
         color: "pink-text-gradient",
       },
     ],
-    image: carrent,
-    source_code_link: "https://github.com/maariraaj/mailbox",
+    image: "src/assets/projects/shadow_chat.png",
+    web_link: "https://groupchatfs.onrender.com/",
+    source_code_link: "https://github.com/maariraaj/groupChatFS",
   },
   {
     name: "Piggy Banker",
     description:
-      "Piggy Banker allows user to track their expenses and premium users (those who spend more than 10000 rupees) can get extra benefits like the provision to download their expenses in an excel format(.csv) and change theme feature. Users' expense data is protected using authentication method.",
+      "Piggy Banker is a robust full-stack application that allows users to securely manage and track their daily expenses with pagination and user-specific data handling. It ensures data security with encrypted passwords and provides efficient logging and performance optimization.",
     tags: [
       {
-        name: "(expense_tracker",
+        name: "expense_tracker",
         color: "blue-text-gradient",
       },
       {
@@ -236,7 +237,8 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: jobit,
+    image: "src/assets/projects/piggy_bank.png",
+    web_link: "http://65.1.227.153/",
     source_code_link: "https://github.com/maariraaj/expenseTracker",
   },
   {
@@ -257,9 +259,32 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: tripguide,
+    image: "src/assets/projects/artistic_aurora.png",
+    web_link: "https://the-artistic-aura.vercel.app/",
     source_code_link: "https://github.com/maariraaj/ecomWeb",
   },
+  {
+    name: "Pigeon Mail",
+    description:
+      "Pigeon Mail is an application where users can send and receive mail. Each user has their account. Integrated react-draft-wysiwyg editor for composing new emails. Users can use Inbox, Sent Mail to see received and sent mails respectively. ",
+    tags: [
+      {
+        name: "mailbox_client",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "react",
+        color: "green-text-gradient",
+      },
+      {
+        name: "bootstrap",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: "src/assets/projects/pigeon_mail.png",
+    web_link: "https://pigeonmail.vercel.app/",
+    source_code_link: "https://github.com/maariraaj/mailbox",
+  }
 ];
 
 export { services, technologies, experiences, testimonials, projects };

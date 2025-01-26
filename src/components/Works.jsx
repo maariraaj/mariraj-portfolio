@@ -14,6 +14,7 @@ const ProjectCard = ({
   description,
   tags,
   image,
+  web_link,
   source_code_link,
 }) => {
   return (
@@ -40,6 +41,19 @@ const ProjectCard = ({
             >
               <img
                 src={github}
+                alt='source code'
+                className='w-1/2 h-1/2 object-contain'
+              />
+            </div>
+          </div>
+
+          <div className='absolute left-0 top-0 flex justify-start m-3 card-img_hover'>
+            <div
+              onClick={() => window.open(web_link, "_blank")}
+              className='black-gradient w-10 h-10 rounded-full flex justify-center items-center cursor-pointer'
+            >
+              <img
+                src="src/assets/link_icon.png"
                 alt='source code'
                 className='w-1/2 h-1/2 object-contain'
               />

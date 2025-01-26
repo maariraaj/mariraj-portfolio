@@ -10,8 +10,8 @@ const FeedbackCard = ({
   index,
   testimonial,
   name,
-  designation,
-  company,
+  social,
+  link,
   image,
 }) => (
   <motion.div
@@ -29,15 +29,17 @@ const FeedbackCard = ({
             <span className='blue-text-gradient'>@</span> {name}
           </p>
           <p className='mt-1 text-secondary text-[12px]'>
-            {designation} of {company}
+            {social}
           </p>
         </div>
 
-        <img
-          src={image}
-          alt={`feedback_by-${name}`}
-          className='w-10 h-10 rounded-full object-cover'
-        />
+        <a href={link} target="_blank" rel="noopener noreferrer">
+          <img
+            src={image}
+            alt={`feedback_by-${name}`}
+            className='w-10 h-10 rounded-full object-cover'
+          />
+        </a>
       </div>
     </div>
   </motion.div>
@@ -51,12 +53,12 @@ const Feedbacks = () => {
       >
         <motion.div variants={textVariant()}>
           <p className={styles.sectionSubText}>Mariraj's</p>
-          <h2 className={styles.sectionHeadText}>Soft skills</h2>
+          <h2 className={styles.sectionHeadText}>Network</h2>
         </motion.div>
       </div>
       <div className={`-mt-20 pb-14 ${styles.paddingX} flex flex-wrap gap-7`}>
         {testimonials.map((testimonial, index) => (
-          <FeedbackCard key={testimonial.name} index={index} {...testimonial} />
+          <FeedbackCard key={testimonial.id} index={index} {...testimonial} />
         ))}
       </div>
     </div>
